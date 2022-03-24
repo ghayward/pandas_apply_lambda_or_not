@@ -53,7 +53,7 @@ df_for_non_lambda
 # In[7]:
 
 
-#Big thanks to https://stackoverflow.com/a/71608269/11736959
+#Big thanks to Étienne Célèry at https://stackoverflow.com/a/71608269/11736959
 def add_some_love_non_lambda(row, name, add):
    if row.state == name:
        row.score = row.score + add
